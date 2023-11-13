@@ -1,0 +1,50 @@
+#login {
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+#login h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#login form {
+    background-color: rgba(46, 224, 255, 0.158);
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+#login form .form-group {
+    margin-bottom: 1rem;
+}
+#login form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#login form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+#login form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #02b7ff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#login form p {
+    text-align: center;
+    margin-top: 1rem;
+}
+#login form p a {
+    color: #02b7ff;
+}
+#login form p a:hover {
+    color: #00668f;
+}

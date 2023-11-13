@@ -1,0 +1,43 @@
+.navbar a {
+    color: #02b7ff !important;
+    margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+    color: #00668f !important;
+}
+/* agregar subrayado a la seccion activa */
+.navbar .active {
+    border-bottom: 2px solid #02b7ff;
+}
+.navbar img {
+    max-width: 100%;
+    height: 4rem;
+}
+/* Estilo para el buscador */
+.search-box {
+    margin-left: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    background: #02b7ff;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.search-box i {
+    font-size: 1.5rem;
+}
+.search-box input {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0.5rem;
+    color: #fff;
+}
+.search-box input::placeholder {
+    color: #fff;
+}
+.search-box input:focus {
+    box-shadow: none;
+    background: none;
+}
