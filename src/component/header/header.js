@@ -21,7 +21,10 @@ export default function Header(){
                             <a className="nav-link" href="/#nosotros">Nosotros</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#productos">Productos</a>
+                            <a className="nav-link" href="/#compra">Compra</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#venta">Venta</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/login">Iniciar Sesión</a>
